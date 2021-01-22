@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* --------------Header----------- */
+header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+}
+/* ----------Header part 1 ---------------- */
+.header1 {
+    background-color: rgba(240, 240, 240, 0.970);
+    display: block;
+    text-align: right;
+    width: 100%;
+    font-size: 11px;
+}
+.header1 img {
+    margin-right: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.header1 select {
+    font-size: 10px;
+    padding: 1px;
+    border-color: transparent;
+    border-radius: 10px;
+    outline: none;
+}
+.header1 a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    margin-left: 30px;
+}
+.header1 a:hover {
+    color: rgb(0, 0, 0);
+}
+.header1 img:hover, .header1 select {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* ----------Header part 2 ---------------- */
+.header2 {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+}
+#logo, .navbar, #searchbar, #shoppingbag {
+    display: block;
+} 
+.navbar {
+    top: 30px;
+    position: relative;
+    width: 93%;
+}
+.navbar a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover {
+    border-bottom: 4px solid black;
+    font-weight: bold;
+}
+#logo {
+    margin-left: 20px;
+    float: left;
+}
+#shoppingbag, #searchbar {
+    float:right;
+    margin-right: 30px;
+}
+#shoppingbag:hover {
+    transform: scale(1.1);
+}
+#searchbar input {
+    position: relative;
+    top: 3px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(247, 247, 247);
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 15px;
+    outline: none;
+}
+#searchbar input:hover {
+    background-color: rgb(238, 238, 238);
+}
+#searchbar img{
+    position: absolute;
+    top: 51px;
+    right: 95px;
+    border-radius: 20px;
+}
+/* ----------Header part 3 ---------------- */
+.header3 {
+    position: absolute;
+    top:100px;
+    width: 100%;
+    background-color: rgba(116, 114, 114, 0.342);
+    color:gray;
+    display: block;
+    text-align: center;
+    height: 20px;
+}
+.header3 a {
+    color: rgb(99, 99, 99);
+}
+#covid {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/* -------Banner------------ */
+.banner {
+    height: 800px;
+    width: 95%;
+    background-image: url(https://www.sneakerfiles.com/wp-content/uploads/2018/07/adidas-zx-4000-4d-grey-6.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.banner pre {
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    margin: 0;
+    /* font-family: 'Bevan', cursive; */
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 80px;
+    text-shadow: 2px 2px 10px rgb(97, 97, 97);
+}
+.banner button {
+    position: relative;
+    top: 200px;
+    left: 20px;
+    height: 50px;
+    width: 150px;
+    border-color: transparent;
+    box-shadow: 1px 5px 10px 0  rgba(63, 63, 63, 0.548);
+    border-radius: 25px;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 20px;
+    background-color: rgb(219, 219, 219);
+    color: rgb(59, 59, 59);
+    outline: none;
+}
+.banner button:hover {
+    box-shadow: 1px 5px 12px 0  rgba(63, 63, 63, 0.548);
+    transform: scale(1.02);
+}
+/* -----------Categories---------- */
+.categories {
+    margin: auto;
+    margin-top: 80px;
+    width: 95%; 
+    font-family: 'Saira Stencil One', cursive;
+}
+.categories h1 {
+    text-shadow: 1px 1px 2px rgb(97, 97, 97);
+    font-size: 25px;
+}
+.categoryBoxes {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(71, 71, 71, 0);
+}
+.categoryBoxes ul {
+    display: block;
+    margin-left: 20%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none; 
+    font-size: 25px;
+}
+.categoryBoxes ul li a {
+    text-decoration: none;
+    color: inherit;  
+}
+.categoryBoxes ul li a:hover {
+    font-weight: bold;
+}
+.boxShoes, .boxClothing, .boxAccessories {
+    display: inline-block;
+    height: 400px;
+    width: 30%;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: 1px 5px 10px 0  rgba(63, 63, 63, 0.548);
+}
+.boxShoes {
+    background-image: url(https://assets.adidas.com/images/w_600,f_auto,q_auto/fb60e921a34e4610bdefaba00016aa91_9366/Ultraboost_20_Shoes_Grey_FX8282_01_standard.jpg);
+    background-size: cover;
+}
+.boxShoes:hover {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-shadow: 0 0 0.5px rgb(0, 0, 0);
+    transform: scale(1.01);
+}
+.boxClothing {
+    background-image: url(https://assets.adidas.com/images/w_385,h_385,f_auto,q_auto:sensitive,fl_lossy/3fa4854ce9eb45e5ad78ac8b00e5641a_9366/tennis-freelift-printed-primeblue-tee.jpg);
+    background-size: cover;
+}
+.boxClothing:hover {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-shadow: 0 0 0.5px rgb(0, 0, 0);
+    transform: scale(1.01);
+}
+.boxAccessories {
+    background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/fcf0691547ac4428beafaa9200e922f0_9366/Gorra_Beisbol_Azul_FQ5270_01_standard.jpg);
+    background-size: cover;
+}
+.boxAccessories:hover {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-shadow: 0 0 0.5px rgb(0, 0, 0);
+    transform: scale(1.01);
+}
+/* -----------Discount------------ */
+.discount {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    font-family: 'Saira Stencil One', cursive;
+    background-color: lawngreen;
+    box-shadow: 0 1px 5px 0  rgba(63, 63, 63, 0.548);
+}
+.discount h1 {
+    float: left;
+    margin-left: 25%;
+}
+.discount button {
+    position:relative;
+    top: 10px;
+    height: 50px;
+    width: 180px;
+    margin-right: 25%;
+    border-color: transparent;
+    box-shadow: 1px 5px 10px 0  rgba(63, 63, 63, 0.548);
+    border-radius: 25px;
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 20px;
+    background-color: rgb(219, 219, 219);
+    color: rgb(59, 59, 59);
+    outline: none;
+    float: right;
+}
+.discount button:hover {
+    box-shadow: 1px 5px 12px 0  rgba(63, 63, 63, 0.548);
+    transform: scale(1.02);
+}
+/* ----------Links------------------ */
+.links {
+    margin: auto;
+    margin-top: 80px;
+    width: 95%;
+    text-align: center;
+}
+.links div {
+    display: inline-block;
+    margin: auto;
+    width: 33%;
+}
+.links h2 {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 18px;
+    margin-left: 40%;
+    text-align: left;
+}
+.links ul {
+    margin-left: 31%;
+    text-align: left;
+    list-style: none;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+.links a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+/* -----------Footer--------------- */
+footer {
+    position: relative;
+    top: 50px;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(206, 206, 206);
+    box-shadow: 0 -1px 10px 1px  rgba(75, 75, 75, 0.548);
+}
+footer hr {
+    width: 95%;
+    height: 0.1px;
+    background-color: rgb(211, 211, 211);
+}
+.support, .info, .footerimg {
+    display: inline-block;
+}
+.support, .info {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 12px;
+    font-family: 'Saira Stencil One', cursive;
+}
+footer a {
+    text-decoration: none;
+    color: inherit
+}
+footer a:hover {
+    color: white
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerimg {
+    float: right;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+.terms {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.terms h2, .terms a {
+    display: inline; 
+    font-size: 10px;
+}
+.terms a {
+    float: right;
+    margin-left: 15px;
+}
+/* ----------------------Shoes--------------------------- */
+.shoes{
+    position: relative;
+    top: 100px; 
+    width: 95%;
+    margin: auto;
+    margin-bottom: 100px;
+    font-family: 'Saira Stencil One', cursive; 
+}
+.shoes hr {
+    height: 1px;
+    border-style: ridge;
+    background-color: gray;
+}
+/* -------------------Filters --------------------------- */
+.filters {
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.filters ul {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    list-style: none;
+    padding: 0;
+}
+.filters a {
+    text-decoration: none;
+    color:black;
+}
+.filters a:hover {
+    font-weight: bold;
+}
+.black {
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: black;
+    box-shadow: 0 0 1px 1px  rgba(63, 63, 63, 0.233);
+}
+.white {
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: cornsilk;
+    box-shadow: 0 0 1px 1px  rgba(63, 63, 63, 0.233);
+}
+.blue {
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(61, 61, 255);
+    box-shadow: 0 0 2px 2px  rgba(63, 63, 63, 0.233);
+}
+.green {
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(0, 190, 10);
+    box-shadow: 0 0 2px 2px  rgba(63, 63, 63, 0.233);
+}
+.red {
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(199, 0, 0);
+    box-shadow: 1px 5px 10px 0  rgba(63, 63, 63, 0.548);
+}
+/* -------------------Items ------------------------------ */
+.items {
+    padding: 10px;
+}
+.items div {
+    display: inline-block;
+    margin-left: 3%;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items img {
+    height: 250px;
+    width: 250px;
+}
+.items img:hover {
+    box-shadow: 1px 5px 10px 0  rgba(63, 63, 63, 0.548);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.items h1, .items h3, .items select {
+    display: inline-block;
+}
+.items h3, .items select {
+    float: right;
+    margin-left: 10px;
+}
+.items select {
+    position: relative;
+    top: 22px;
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+    padding: 1px;
+    border-radius: 10px;
+    outline: none;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abibas</title>
+        <link rel="shortcut icon" href="https://i.pinimg.com/originals/ca/6e/bf/ca6ebf2a48d5e5635ecfecb14b800174.jpg" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<!--HEADER --------------------------------------------------------------------->
+        <header>
+<!-- Header part1 -------------------------------------------------------------->
+            <div class="header1">
+                <select name="language">
+                    <option value="english">English</option>
+                    <option value="french">French</option>
+                </select>
+                <a href="#">Help</a>
+                <a href="#">Sing In</a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" height="30px">
+            </div>
+<!-- Header part2 -------------------------------------------------------------->
+            <div class="header2">
+                <a href="home.html" id="logo"><img src="https://i.pinimg.com/originals/ca/6e/bf/ca6ebf2a48d5e5635ecfecb14b800174.jpg" height="70px"/></a>
+                <nav class="navbar">
+                    <a href="">New Releases</a>
+                    <a href="">Men</a>
+                    <a href="">Women</a>
+                    <a href="">Kids</a>
+                </nav>
+                <a href="#" id="shoppingbag"><img src="https://i.pinimg.com/originals/09/88/dc/0988dc27ab24d196b91d085c786c292d.png" height="30px"></a>
+                <div id="searchbar">
+                    <input type="text" name="search" placeholder="Search">
+                    <img src="data:image/png;base64,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" height="32px">
+                </div>
+            </div>
+<!-- Header part3 -------------------------------------------------------------->
+            <div class="header3">
+                <pre id=covid>Covid 19: Information about stores and deliveries. <a href="#">Learn more</a></pre>
+            </div>
+        </header>
+<!-- Banner -------------------------------------------------------------------->
+        <section class="banner">
+            <pre>
+ ABIBAS 
+ NEW SHOES  </pre>
+            <a href="#"><button type="button">SHOP NOW</button></a>
+        </section>
+<!-- Categories ---------------------------------------------------------------->
+        <section class="categories">
+            <h1>CATEGORIES</h1>
+            <div class="categoryBoxes">
+                <div class="boxShoes">
+                    <h2>SHOES</h2>
+                    <ul>
+                        <li><a href="shoes.html">Shop for Men</a></li>
+                        <li><a href="#">Shop for Women</a></li>
+                        <li><a href="#">Shop for Kids</a></li>
+                    </ul>
+                </div>
+                <div class="boxClothing">
+                    <h2>CLOTHING</h2>
+                    <ul>
+                        <li><a href="#">Shop for Men</a></li>
+                        <li><a href="#">Shop for Women</a></li>
+                        <li><a href="#">Shop for Kids</a></li>
+                    </ul>
+                </div>
+                <div class="boxAccessories">
+                    <h2>ACCESSORIES</h2>
+                    <ul>
+                        <li><a href="#">Shop for Men</a></li>
+                        <li><a href="#">Shop for Women</a></li>
+                        <li><a href="#">Shop for Kids</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </section>
+<!-- Discount -------------------------------------------------------------------->
+        <section class="discount">
+            <h1>SIGN UP NOW AND GET 10% DISCOUNT</h1>
+            <a href="#"><button type="button">SING UP NOW</button></a>
+        </section>
+<!-- Links ----------------------------------------------------------------------->
+        <section class="links">
+            <div>
+                <a href="shoes.html"><h2>Shoes</h2></a>
+                <ul>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Running</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#"><h2>Clothing</h2></a>
+                <ul>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#"><h2>Accessories</h2></a>
+                <ul>
+                    <li><a href="#">Hats</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Masks</a></li>
+                </ul>
+            </div>
+        </section>
+<!-- Footer --------------------------------------------------------------------------->
+        <footer>
+            <div class="support">
+                <a href="#">SUPPORT</a>
+                <ul>
+                    <li><a href="#">Help</a></li><br>
+                    <li><a href="#">Contact Us</a></li><br>
+                    <li><a href="#">Shipping Info</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <a href="#">COMPANY INFO</a>
+                <ul>
+                    <li><a href="#">About Us</a></li><br>
+                    <li><a href="#">News</a></li><br>
+                    <li><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+            <div class="footerimg">
+                <img src="https://miro.medium.com/max/602/0*ebDD74rKM_K2_fir" height="80px">
+            </div>
+            <hr>
+            <div class="terms">
+                <h2>© 2020 Abibas, Inc. All Rights Reserved</h2>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div><br>
+        </footer>
+    </body>
+</html>
